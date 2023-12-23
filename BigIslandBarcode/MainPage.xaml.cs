@@ -11,7 +11,7 @@ namespace BigIslandBarcode
 		public MainPage()
 		{
 			InitializeComponent();
-
+//new CameraBarcodeReaderView().BarcodesDetected
 			barcodeView.Options = new BarcodeReaderOptions
 			{
 				Formats = BarcodeFormats.All,
